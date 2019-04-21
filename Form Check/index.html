@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CWD4101 - Assignment 1</title>
+	<meta name="author" content="Kamran Trea" />
+	<meta name="description" content="CWD4101 - JavaScript - Assignment 1" />
+	<meta name="keywords" content="Durham, JavaScript, CWD4101, Assignment 1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="animateme">
+		<ul class="bg-bubbles">
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+				 <li></li>
+			   </ul>
+			 </div>
+	<div id="signin">
+		<h3>Sign In</h3>
+		<div id="inputs">
+			<input id="idSignin" type="" name="idSignin" placeholder="ID">
+			<input id="passwordSignin" name="passwordSignin" placeholder="Password">
+		</div>
+
+		<button id="signinBtn" >Sign in</button>
+		<button id="registerBtn" >Not a member? Register Now!</button>
+	</div>	
+	<div id="join">
+		<h3>Join</h3>
+		<div id="inputs">
+			<input id="idJoin" type="" name="idJoin" placeholder="ID">
+			<input id="passwordJoin" name="passwordJoin" placeholder="Password">
+			<input id="emailJoin" name="emailJoin" placeholder="Email">
+			<input id="captchaJoin" name="captchaJoin" placeholder="captcha Code">
+		</div>
+		<div id='captchaContainer'>
+			<canvas id='captcha'></canvas>
+		</div>
+		<button id="joinBtn" >Join</button>
+		<button id="cancelBtn" >Cancel</button>
+	</div>
+	<div id="users">
+		<h2>Registered Users</h2>
+		<div id='roster'></div>
+	</div>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
